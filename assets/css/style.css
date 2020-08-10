@@ -1,0 +1,316 @@
+
+body{
+    padding: 0;
+    text-align: center;
+    font-family: 'poppins', serif;
+    background-color:gray;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.clear-fix{
+    clear: both;
+}
+
+.main-container{
+    background-image:url("../images/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    /*overflow: hidden;*/
+    height: 1%;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.container h1{
+    color: white;
+    padding-top:50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 70px;
+}
+.container h5{
+    color: white;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 0.75);
+    text-transform: uppercase;
+    font-weight: normal;
+
+}
+.container .head-img img{
+    width: 100%;
+    -webkit-box-shadow: -4px -1px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px -1px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: -4px -1px 14px 0px rgba(0,0,0,0.75);
+}
+.container .head-img{
+    height: 407px;
+}
+.container .text-box{
+    background-color: white;
+    height: 550px;
+    position: relative;
+
+}
+.container .text-box h2{
+    padding-top: 40px;
+    margin-top: 0;
+    font-weight: 700;
+    word-spacing: 3px;
+
+}
+.container .text-box h5{
+    color: #d7d7d7;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+}
+.container .text-box .line{
+    width: 150px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    margin: 0 auto;
+
+}
+.container .grey-box .gallery-1 .line{
+    width: 110px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.125);
+    margin: 12px auto;
+
+}
+.container .text-box .main-text{
+    background-color: #f2f2f2;
+    position: absolute;
+    height: 65%;
+    bottom: 0;
+}
+.container .text-box .main-text p {
+    color: #989898;
+    text-align: left;
+    padding:40px 60px;
+    font-weight: 100;
+    font-size: 16px;
+}
+.container .grey-box{
+    background-color: #1e1f23;
+    padding: 10px;
+    height: 750px;
+
+}
+.container .grey-box .gallery-1{
+    background-color: #121315;
+    width: 90%;
+    margin: 0 auto;
+    height: 650px;
+}
+
+.container .grey-box .gallery-1 img{
+    width: 50%;
+    height: 241px;
+}
+.container .grey-box .gallery-1 img:nth-child(odd) {
+    float: left;
+}
+.container .grey-box .gallery-1 h2{
+    padding-top: 30px;
+    color: white;
+    line-height: 30px;
+    font-size: 30px;
+}
+.container .grey-box .gallery-1 h5{
+    color: rgba(255, 255, 255, 0.25);
+    letter-spacing: 3px;
+    word-spacing: 7px;
+    font-weight: normal;
+    font-size: 14px;
+
+
+}
+.container .gallery-2{
+    width:1140px ;
+    height: 1250px;
+}
+.container .gallery-2 img{
+    /*width: 568px;*/
+
+    height: 427px;
+}
+.container .gallery-2 .pic{
+    width: 50%;
+    height: 427px;
+
+}
+.container .gallery-2 .text{
+    width: 50%;
+    height: 427px;
+    padding: 150px 40px 70px 40px;
+}
+.container .gallery-2 .text h5{
+    margin-top: 0;
+    color: black;
+    padding-bottom: 0 ;
+    text-align: left;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+
+}
+.container .gallery-2 .text p{
+    text-align: left;
+    line-height: 30px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.container .gallery-2 .first-pic{
+    float: left;
+}
+.container .gallery-2 .first-text{
+    float: right;
+    background-color: white;
+}
+.container .gallery-2 .second-pic{
+    float: right;
+}
+.container .gallery-2 .second-text p{
+    color: rgba(255, 255, 255, 0.25);
+    text-align: right;
+
+}
+.container .gallery-2 .second-text h5{
+    color: white;
+    text-align: right;
+}
+.container .gallery-2 .second-text{
+    float: left;
+    background: #1e1f23;
+
+}
+.container .gallery-2 .third-pic{
+    width: 50%;
+    float: left;
+}
+.container .gallery-2 .third-text{
+    float: right;
+    background-color: white;
+}
+.main-container .links{
+    padding-top: 40px;
+
+}
+.main-container .links ul{
+}
+.main-container .links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+.main-container .links ul li a{
+    display: inline-block;
+}
+.main-container .links ul li a i{
+    color: rgba(255, 255, 255, 0.75);
+}
+.main-container .links p span{
+    font-family: Arial, SansSerif, serif;
+}
+.main-container .links p{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 14px;
+    text-align: center;
+    word-spacing: 2px;
+}
+/***********************************************************/
+@media (min-width: 768px) and (max-width: 1024px) {
+    /*.view {*/
+    /*    width: 400px;*/
+    /*}*/
+    body {
+        background-size: auto;
+    }
+
+
+    .container .text-box .main-text{
+        height: 500px;
+        position: relative;
+        background-color: #f2f2f2;
+
+    }
+    .container .text-box .main-text p{
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: lighter;
+    }
+    .container .head-img{
+        height: 253px;
+    }
+    .container .text-box h5{
+        margin-bottom: 50px;
+    }
+    .container .grey-box{
+        height: 1670px;
+        margin-top: 100px;
+    }
+    .container .grey-box .gallery-1{
+        width: 80%;
+        height: 1560px;
+    }
+    .container .grey-box .gallery-1 .img{
+        width: 100%;
+        height: 350px;
+        margin: 0 auto;
+
+    }
+    .container .grey-box .gallery-1 img{
+        width: 100%;
+        height: 350px;
+    }
+    .container .gallery-2 {
+        width: 848px;
+        margin: 0;
+    }
+    .container .gallery-2 .text{
+        width: 100%;
+        height: 270px;
+        padding: 50px 40px;
+
+    }
+    .container .gallery-2 .text p,
+    .container .gallery-2 .text h5{
+        text-align: center;
+
+    }
+
+    .container .gallery-2 .pic,
+    .container .gallery-2 .pic img{
+        width: 100%;
+        height: 600px;
+    }
+
+}
+
+/*!* For mobile *!*/
+/*@media (min-width: 414px) and (max-width: 736px) {*/
+/*    .view {*/
+/*        width: 600px;*/
+/*    }*/
+/*    .container .text-box .main-text{*/
+/*        background-color: white;*/
+/*        height: 900px;*/
+/*        position: relative;*/
+
+/*    }*/
+/*    body{*/
+/*        background-size: auto;*/
+/*    }*/
+
+/*}*/
